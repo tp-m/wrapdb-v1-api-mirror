@@ -1,0 +1,12 @@
+[wrap-file]
+directory = sqlite-amalgamation-3320300
+source_url = https://www.sqlite.org/2020/sqlite-amalgamation-3320300.zip
+source_filename = sqlite-amalgamation-3320300.zip
+source_hash = e9cec01d4519e2d49b3810615237325263fe1feaceae390ee12b4a29bd73dbe2
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/sqlite/3320300/4/get_zip
+patch_filename = sqlite-3320300-4-wrap.zip
+patch_hash = d53b125075bc33d3c71e811fec8fdc707b4d555a1a4599473aeeadca2ae108ff
+
+[provide]
+sqlite3_dep = sqlite_dep
+

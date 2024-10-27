@@ -1,0 +1,10 @@
+[wrap-file]
+directory = libspng-0.4.5
+
+source_url = https://gitlab.com/randy408/libspng/uploads/ffe0a3ec6ab1e73d8ae738c41e00d732/libspng-0.4.5.zip
+source_filename = libspng-0.4.5.zip
+source_hash = 8d690fb42749f808bc183463607bc176130e7f303f6a6426ff66bace5bfcaabe
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/spng/0.4.5/1/get_zip
+patch_filename = spng-0.4.5-1-wrap.zip
+patch_hash = c987d4a440d02f3d8a383b19de54754a6b0e7fabc1f377fdf8b1ebbce1160366

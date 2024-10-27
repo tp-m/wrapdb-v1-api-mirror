@@ -1,0 +1,12 @@
+[wrap-file]
+directory = tclap-1.2.2
+source_url = https://sourceforge.net/projects/tclap/files/tclap-1.2.2.tar.gz
+source_filename = tclap-1.2.2.tar.gz
+source_hash = f5013be7fcaafc69ba0ce2d1710f693f61e9c336b6292ae4f57554f59fde5837
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/tclap/1.2.2/1/get_zip
+patch_filename = tclap-1.2.2-1-wrap.zip
+patch_hash = 69e8e84703b27d22bf113399a603969fb3fd4d822a0cefc4fac121abe85f44fc
+
+[provide]
+tclap = tclap_dep
+

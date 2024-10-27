@@ -1,0 +1,13 @@
+[wrap-file]
+directory = mpdecimal-2.5.0
+source_url = http://www.bytereef.org/software/mpdecimal/releases/mpdecimal-2.5.0.tar.gz
+source_filename = mpdecimal-2.5.0.tar.gz
+source_hash = 15417edc8e12a57d1d9d75fa7e3f22b158a3b98f44db9d694cfd2acde8dfa0ca
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/mpdecimal/2.5.0/1/get_zip
+patch_filename = mpdecimal-2.5.0-1-wrap.zip
+patch_hash = 3c5f1efd112fad09c1cb007dbc4423d71bf099f2eefb863984c6b7fb44e90507
+
+[provide]
+mpdec = mpdec_dep
+mpdecpp = mpdecpp_dep
+

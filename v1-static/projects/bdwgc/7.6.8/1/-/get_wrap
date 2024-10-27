@@ -1,0 +1,10 @@
+[wrap-file]
+directory=gc-7.6.8
+
+source_url=https://github.com/ivmai/bdwgc/releases/download/v7.6.8/gc-7.6.8.tar.gz
+source_filename=gc-7.6.8.tar.gz
+source_hash=040ac5cdbf1bebc7c8cd4928996bbae0c54497c151ea5639838fa0128102e258
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/bdwgc/7.6.8/1/get_zip
+patch_filename = bdwgc-7.6.8-1-wrap.zip
+patch_hash = 31254123337779fedce050eb82f81ae5875f6fd862733f3b335b3257ec5c283c

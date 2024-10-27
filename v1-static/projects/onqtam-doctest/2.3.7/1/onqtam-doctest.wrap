@@ -1,0 +1,9 @@
+[wrap-file]
+directory = doctest-2.3.7
+source_url = https://github.com/onqtam/doctest/archive/2.3.7.tar.gz
+source_filename = 2.3.7.tar.gz
+source_hash = a70cd25875029879e577b08cfaa57a76c7bea62c473ca94d85ec87ea53af7177
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/onqtam-doctest/2.3.7/1/get_zip
+patch_filename = onqtam-doctest-2.3.7-1-wrap.zip
+patch_hash = 00f3558d71fd8d5470a9cc1a8c7c3c794fee50f9b07beb879340d9a7051bb3a7

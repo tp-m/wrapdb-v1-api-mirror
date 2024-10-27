@@ -1,0 +1,12 @@
+[wrap-file]
+directory = wren-0.4.0
+source_url = https://github.com/wren-lang/wren/archive/0.4.0.tar.gz
+source_filename = 0.4.0.tar.gz
+source_hash = 23c0ddeb6c67a4ed9285bded49f7c91714922c2e7bb88f42428386bf1cf7b339
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/wren/0.4.0/1/get_zip
+patch_filename = wren-0.4.0-1-wrap.zip
+patch_hash = 17a2b98b8c2b18ec72b1720c9be6e98dd5d101accb1f6446d3cbf172f2775251
+
+[provide]
+wren = wren_dep
+

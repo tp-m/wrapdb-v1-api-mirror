@@ -1,0 +1,9 @@
+[wrap-file]
+directory = SDL2_net-2.0.1
+source_url = https://www.libsdl.org/projects/SDL_net/release/SDL2_net-2.0.1.zip
+source_filename = SDL2_net-2.0.1.zip
+source_hash = 52031ed9d08a5eb1eda40e9a0409248bf532dde5e8babff5780ef1925657d59f
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/sdl2_net/2.0.1/1/get_zip
+patch_filename = sdl2_net-2.0.1-1-wrap.zip
+patch_hash = 1293dfdf0aa6458b9ec27d3b50642d0461d86b6bb8e52f7acddc8691cafed004
+

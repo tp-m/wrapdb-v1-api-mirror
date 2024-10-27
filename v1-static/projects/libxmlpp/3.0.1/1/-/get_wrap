@@ -1,0 +1,9 @@
+[wrap-file]
+directory = libxml++-3.0.1
+
+source_url = ftp://ftp.gnome.org/pub/GNOME/sources/libxml++/3.0/libxml++-3.0.1.tar.xz
+source_filename = libxml++-3.0.1.tar.xz
+source_hash = 19dc8d21751806c015179bc0b83f978e65c878724501bfc0b6c1bcead29971a6
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/libxmlpp/3.0.1/1/get_zip
+patch_filename = libxmlpp-3.0.1-1-wrap.zip
+patch_hash = 49447afa5e2789f93d47a75dbb11f26a907b8c5138fb33820a22779e97b98d88

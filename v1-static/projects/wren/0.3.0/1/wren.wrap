@@ -1,0 +1,10 @@
+[wrap-file]
+directory = wren-0.3.0
+
+source_url = https://github.com/wren-lang/wren/archive/0.3.0.tar.gz
+source_filename = 0.3.0.tar.gz
+source_hash = c566422b52a18693f57b15ae4c9459604e426ea64eddb5fbf2844d8781aa4eb7
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/wren/0.3.0/1/get_zip
+patch_filename = wren-0.3.0-1-wrap.zip
+patch_hash = 4c4955b79782e7577c4bd6bff5632ef2f3691ddf97970c5e54fdff4b20824775

@@ -1,0 +1,10 @@
+[wrap-file]
+directory = Box2D-2.3.1
+
+source_url = https://github.com/erincatto/box2d/archive/v2.3.1/box2d-2.3.1.tar.gz
+source_filename = box2d-2.3.1.tar.gz
+source_hash = 75d62738b13d2836cd56647581b6e574d4005a6e077ddefa5d727d445d649752
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/box2d/2.3.1/7/get_zip
+patch_filename = box2d-2.3.1-7-wrap.zip
+patch_hash = 4c2b01e86d551b87db4458fd2267b7f3438b87fa0c1bbfc22455790f63080e70

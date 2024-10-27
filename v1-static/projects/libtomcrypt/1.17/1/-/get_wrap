@@ -1,0 +1,10 @@
+[wrap-file]
+directory = libtomcrypt-1.17
+
+source_url = https://github.com/libtom/libtomcrypt/releases/download/1.17/crypt-1.17.zip
+source_filename = crypt-1.17.zip
+source_hash = e860ae8057e5bef12e544d38e097ccf9372509d3487a56dd01fb57224c5a3343
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/libtomcrypt/1.17/1/get_zip
+patch_filename = libtomcrypt-1.17-1-wrap.zip
+patch_hash = 062077f2ba43bc8c9e6e440c1f707acf9bc9fa82f7533c1077f451333668dff0

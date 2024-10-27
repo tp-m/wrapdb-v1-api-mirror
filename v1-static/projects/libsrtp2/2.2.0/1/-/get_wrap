@@ -1,0 +1,10 @@
+[wrap-file]
+directory = libsrtp-2.2.0
+
+source_url = https://github.com/cisco/libsrtp/archive/v2.2.0.tar.gz
+source_filename = libsrtp2-2.2.0.tar.gz
+source_hash = 44fd7497bce78767e96b54a11bca520adb2ad32effd515f04bce602b60a1a50b
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/libsrtp2/2.2.0/1/get_zip
+patch_filename = libsrtp2-2.2.0-1-wrap.zip
+patch_hash = 20778bbdf305ce24cf7a80f980a08abe33cc63f2a52d640634488e848ce9497c

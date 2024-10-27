@@ -1,0 +1,14 @@
+[wrap-file]
+directory = icu
+source_url = https://github.com/unicode-org/icu/releases/download/release-55-2/icu4c-55_2-src.tgz
+source_filename = icu4c-55_2-src.tgz
+source_hash = eda2aa9f9c787748a2e2d310590720ca8bcc6252adf6b4cfb03b65bef9d66759
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/icu/55.2/1/get_zip
+patch_filename = icu-55.2-1-wrap.zip
+patch_hash = 70e15e7ddc5465737eb75cf284e01be941925b44d6e3bb7ee312e5485d7764d3
+
+[provide]
+icu-uc = icuuc_dep
+icu-io = icuio_dep
+icu-i18n = icui18n_dep
+

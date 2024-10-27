@@ -1,0 +1,10 @@
+[wrap-file]
+directory = json-2.1.1
+
+source_url = https://github.com/nlohmann/json/archive/v2.1.1/json-2.1.1.tar.gz
+source_filename = json-2.1.1.tar.gz
+source_hash = 59b85ebe61d9dcbd24946f2082ce5943e276f05b4ef1baeb3c6c10d324333053
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/json/2.1.1/1/get_zip
+patch_filename = json-2.1.1-1-wrap.zip
+patch_hash = 5af18c2e505d922f7c6d8b1fcc6ce53243d9c5598a88368616240ea93774d1e0

@@ -1,0 +1,10 @@
+[wrap-file]
+directory = byte-lite-0.2.0
+
+source_url = https://codeload.github.com/martinmoene/byte-lite/tar.gz/v0.2.0
+source_filename = byte-lite-0.2.0.tar.gz
+source_hash = 34221fba6800b3a5af4a17a274fc024afb2d49b3b4ec9ac61588305375891a20
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/nonstd-byte-lite/0.2.0/1/get_zip
+patch_filename = nonstd-byte-lite-0.2.0-1-wrap.zip
+patch_hash = 9e7b6528244842383a53c577c5a1763355fd579ece666f29eb235c5eafbe5a11

@@ -1,0 +1,10 @@
+[wrap-file]
+directory = docopt.cpp-0.6.3
+
+source_url = https://github.com/docopt/docopt.cpp/archive/v0.6.3.tar.gz
+source_filename = v0.6.3.tar.gz
+source_hash = 28af5a0c482c6d508d22b14d588a3b0bd9ff97135f99c2814a5aa3cbff1d6632
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/docopt/0.6.3/1/get_zip
+patch_filename = docopt-0.6.3-1-wrap.zip
+patch_hash = 5df718b8596fd5d2b15bd257c061afc1ed463c4b3f3a73531b262ecc8d6ce5bb

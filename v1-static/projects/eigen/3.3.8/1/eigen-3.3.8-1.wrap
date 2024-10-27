@@ -1,0 +1,9 @@
+[wrap-file]
+directory = eigen-3.3.8
+source_url = https://gitlab.com/libeigen/eigen/-/archive/3.3.8/eigen-3.3.8.tar.bz2
+source_filename = eigen-3.3.8.tar.bz2
+source_hash = 0215c6593c4ee9f1f7f28238c4e8995584ebf3b556e9dbf933d84feb98d5b9ef
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/eigen/3.3.8/1/get_zip
+patch_filename = eigen-3.3.8-1-wrap.zip
+patch_hash = 19a11fdf92e67b67319d9e65274df0278b30423cc0c2a70f9259e8a9c0dd810f
+

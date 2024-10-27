@@ -1,0 +1,10 @@
+[wrap-file]
+directory = jpeg-9a
+
+source_url = http://ijg.org/files/jpegsrc.v9a.tar.gz
+source_filename = jpegsrc.v9a.tar.gz
+source_hash = 3a753ea48d917945dd54a2d97de388aa06ca2eb1066cbfdc6652036349fe05a7
+
+patch_url = http://wrapdb.mesonbuild.com/v1/projects/libjpeg/9a/2/get_zip
+patch_filename = libjpeg-9a-2-wrap.zip
+patch_hash = b91d5e608555060d96afde8e13a2f3738167b397a262ad568e0088a39ee9ebfa

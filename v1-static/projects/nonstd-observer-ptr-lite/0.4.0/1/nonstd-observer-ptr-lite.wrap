@@ -1,0 +1,10 @@
+[wrap-file]
+directory = observer-ptr-lite-0.4.0
+
+source_url = https://codeload.github.com/martinmoene/observer-ptr-lite/tar.gz/v0.4.0
+source_filename = observer-ptr-lite-0.4.0.tar.gz
+source_hash = 812eafbdaccfb44ffd2536692b668cd1f16228e8d7609de56b60320c8c57cc67
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/nonstd-observer-ptr-lite/0.4.0/1/get_zip
+patch_filename = nonstd-observer-ptr-lite-0.4.0-1-wrap.zip
+patch_hash = 32af6a9489d9fc02d8988bc87f27635ca834086954568d9952e1368cbb024c74

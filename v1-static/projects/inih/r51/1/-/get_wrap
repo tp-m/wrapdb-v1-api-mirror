@@ -1,0 +1,10 @@
+[wrap-file]
+directory = inih-r51
+
+source_url = https://github.com/benhoyt/inih/archive/r51.tar.gz
+source_filename = r51.tar.gz
+source_hash = 132361da6d3172760a40319722b50244aee1b7ce7077a0dd8805881e6a8ea4aa
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/inih/r51/1/get_zip
+patch_filename = inih-r51-1-wrap.zip
+patch_hash = deb2d70c4c1abd9decaf9d069a4826a5c4fc80bde2d9b8cd57099b9261849b50

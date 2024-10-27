@@ -1,0 +1,10 @@
+[wrap-file]
+directory = RxCpp-4.1.0
+
+source_url = https://github.com/ReactiveX/RxCpp/archive/4.1.0.zip
+source_filename = RxCpp-4.1.0.zip
+source_hash = d2ee5579b81b3676c0fb7efd02aae58575f2e9148a6d8f2b469cf9c020760ccb
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/rxcpp/4.1.0/1/get_zip
+patch_filename = rxcpp-4.1.0-1-wrap.zip
+patch_hash = 7b0ea87f010856a2ff734605b9a42a7a087032f91a53e5bddad23530854eb569

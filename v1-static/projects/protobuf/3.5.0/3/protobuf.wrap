@@ -1,0 +1,10 @@
+[wrap-file]
+directory = protobuf-3.5.0
+
+source_url = https://github.com/google/protobuf/releases/download/v3.5.0/protobuf-all-3.5.0.tar.gz
+source_filename = protobuf-all-3.5.0.tar.gz
+source_hash = 5c3e0b369e767993969fdebcb3f44cbddd7fdd86644a926780daab46341d10a7
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/protobuf/3.5.0/3/get_zip
+patch_filename = protobuf-3.5.0-3-wrap.zip
+patch_hash = edc8ee48b2c4adfd26c4165ceb4be58897f7003640e9df20660f70419b902823

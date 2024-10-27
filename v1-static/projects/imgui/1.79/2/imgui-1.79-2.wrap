@@ -1,0 +1,12 @@
+[wrap-file]
+directory = imgui-1.79
+source_url = https://github.com/ocornut/imgui/archive/v1.79.tar.gz
+source_filename = imgui-1.79.tar.gz
+source_hash = f1908501f6dc6db8a4d572c29259847f6f882684b10488d3a8d2da31744cd0a4
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/imgui/1.79/2/get_zip
+patch_filename = imgui-1.79-2-wrap.zip
+patch_hash = c15c105fc3e9774ae55bc9659429402b5a3528db023c4f488a31fa308dd51001
+
+[provide]
+imgui = imgui_dep
+

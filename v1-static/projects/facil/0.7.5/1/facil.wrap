@@ -1,0 +1,9 @@
+[wrap-file]
+directory = facil.io-0.7.5
+source_url = https://github.com/boazsegev/facil.io/archive/0.7.5.tar.gz
+source_filename = 0.7.5.tar.gz
+source_hash = c3c62be86eb3b9c61b26a4b98435530c78f41b1e7a98b1b3e37a38ec1cf2367e
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/facil/0.7.5/1/get_zip
+patch_filename = facil-0.7.5-1-wrap.zip
+patch_hash = 4bfc2c4a778159ef052ed05e44dfd76ef74ad7c481122402a856a6e14ef7f912
+

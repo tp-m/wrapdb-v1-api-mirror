@@ -1,0 +1,10 @@
+[wrap-file]
+directory = optional-lite-3.2.0
+
+source_url = https://codeload.github.com/martinmoene/optional-lite/tar.gz/v3.2.0
+source_filename = optional-lite-3.2.0.tar.gz
+source_hash = 069c92f6404878588be761d609b917a111b0231633a91f7f908288fc77eb24c8
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/nonstd-optional-lite/3.2.0/1/get_zip
+patch_filename = nonstd-optional-lite-3.2.0-1-wrap.zip
+patch_hash = 861166a866df38863003d066c058199e8f718bab368ff40530e3537c9d7deb8d

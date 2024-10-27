@@ -1,0 +1,9 @@
+[wrap-file]
+source_url=https://github.com/ddiakopoulos/tinyply/archive/2.2.zip
+source_filename=tinyply-2.2.zip
+directory=tinyply-2.2
+source_hash=f9e4078a1f82557bf1d5c80525492c569e3ef8a4f5b28a847996ee91a2e8f4e6
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/tinyply/2.2/1/get_zip
+patch_filename = tinyply-2.2-1-wrap.zip
+patch_hash = 83c6be6495b783b4d8286e5e1f2d0d8d267e3c8a0befec441d8c9142010809f4

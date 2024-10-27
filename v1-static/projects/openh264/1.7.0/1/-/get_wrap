@@ -1,0 +1,10 @@
+[wrap-file]
+directory = openh264-1.7.0
+
+source_url = https://github.com/cisco/openh264/archive/v1.7.0.tar.gz
+source_filename = v1.7.0.tar.gz
+source_hash = 9c07c38d7de00046c9c52b12c76a2af7648b70d05bd5460c8b67f6895738653f
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/openh264/1.7.0/1/get_zip
+patch_filename = openh264-1.7.0-1-wrap.zip
+patch_hash = 9fcfccf6fe4a011d0aab4650e6bb29fed37f165318a13a962de72c92b2b77a89
