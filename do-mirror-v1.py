@@ -3,7 +3,7 @@
 # Little script to create a static mirror of the project list, wrap infos,
 # wraps, and patch zips available in the v1 api database.
 #
-# Copyright (C) 2023 Tim-Philipp Müller <tim centricular com>
+# Copyright (C) 2024 Tim-Philipp Müller <tim centricular com>
 #
 # SPDX-License-Identifier: MPL-2.0
 
@@ -18,7 +18,7 @@ import json
 import urllib.request
 from urllib.parse import urlparse
 
-# root@wrapdb:/home/legeana/wrapweb/wrapweb# grep route api.py 
+# root@wrapdb:/home/legeana/wrapweb/wrapweb# grep route api.py
 # @BP.route('/v1/query/byname/<project>', methods=['GET'])
 # @BP.route('/v1/query/get_latest/<project>', methods=['GET'])
 # @BP.route('/v1/projects')
@@ -125,7 +125,8 @@ for project in projects_json['projects']:
         shutil.copy2(wrap_fn, wrap_fn_alt)
 
         # Create foo-1.2.3-1.wrap
-        wrap_fn_alt2 = os.path.join(base_dir, 'projects', project, branch, f'{revision}', f'{project}-{branch}-{revision}.wrap')
+        wrap_fn_alt2 = os.path.join(base_dir, 'projects', project, branch,
+                                    f'{revision}', f'{project}-{branch}-{revision}.wrap')
         print('\t\t', 'Copying', wrap_fn, '-->', wrap_fn_alt2)
         shutil.copy2(wrap_fn, wrap_fn_alt2)
 
@@ -141,7 +142,7 @@ for project in projects_json['projects']:
         if patch_url == zip_url_http:
             print('\t\t', 'WARNING: http zip url in wrap file', patch_filename, ':', patch_url)
         else:
-            assert(zip_url == patch_url or api != 'v1')
+            assert (zip_url == patch_url or api != 'v1')
 
         print('\t\t', 'Downloading', zip_url, '-->', patch_filename)
         res = urllib.request.urlretrieve(zip_url, zip_fn)
@@ -150,10 +151,10 @@ for project in projects_json['projects']:
         zip_fn_alt = os.path.join(base_dir, 'projects', project, branch, f'{revision}', patch_filename)
         print('\t\t', 'Copying', zip_fn, '-->', zip_fn_alt)
         shutil.copy2(zip_fn, zip_fn_alt)
-        
-        with open(zip_fn,"rb") as zip_f:
-            zip_bytes = zip_f.read() # read entire file as bytes
-            zip_hash = hashlib.sha256(zip_bytes).hexdigest();
+
+        with open(zip_fn, "rb") as zip_f:
+            zip_bytes = zip_f.read()  # read entire file as bytes
+            zip_hash = hashlib.sha256(zip_bytes).hexdigest()
             if zip_hash != patch_hash:
                 print('ERROR: Hash of', zip_fn, 'is', zip_hash, ', but expected', patch_hash)
                 sys.exit(1)
